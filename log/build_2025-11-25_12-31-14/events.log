@@ -1,0 +1,12 @@
+[0.000000] (-) TimerEvent: {}
+[0.000550] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000603] (-) JobUnselected: {'identifier': 'cpp01_topic'}
+[0.000613] (-) JobUnselected: {'identifier': 'cpp02_service'}
+[0.000620] (-) JobUnselected: {'identifier': 'cpp03_action'}
+[0.000626] (-) JobUnselected: {'identifier': 'cpp04_param'}
+[0.000632] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000638] (-) JobUnselected: {'identifier': 'tutorails_plumbing'}
+[0.000645] (cpp07_exercise) JobQueued: {'identifier': 'cpp07_exercise', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo'), ('turtlesim', '/home/bbbkkk/ws01_plumbing/install/turtlesim')])}
+[0.001028] (cpp07_exercise) JobStarted: {'identifier': 'cpp07_exercise'}
+[0.009489] (cpp07_exercise) JobEnded: {'identifier': 'cpp07_exercise', 'rc': 1}
+[0.020868] (-) EventReactorShutdown: {}

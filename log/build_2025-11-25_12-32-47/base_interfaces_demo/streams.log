@@ -1,0 +1,319 @@
+[0.015s] Invoking command in '/home/bbbkkk/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bbbkkk/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo
+[0.104s] -- The C compiler identification is GNU 11.4.0
+[0.206s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.298s] -- Detecting C compiler ABI info - done
+[0.307s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.307s] -- Detecting C compile features
+[0.307s] -- Detecting C compile features - done
+[0.311s] -- Detecting CXX compiler ABI info
+[0.378s] -- Detecting CXX compiler ABI info - done
+[0.388s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.388s] -- Detecting CXX compile features
+[0.388s] -- Detecting CXX compile features - done
+[0.409s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.550s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.616s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.619s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.626s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.908s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.052s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.234s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.252s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.255s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.275s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.276s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.276s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.276s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.297s] -- Found PythonExtra: .so  
+[1.333s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.348s] -- Configuring done
+[1.376s] -- Generating done
+[1.384s] -- Build files have been written to: /home/bbbkkk/ws01_plumbing/build/base_interfaces_demo
+[1.391s] Invoked command in '/home/bbbkkk/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bbbkkk/ws01_plumbing/src/base_interfaces_demo -DCMAKE_INSTALL_PREFIX=/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo
+[1.392s] Invoking command in '/home/bbbkkk/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws01_plumbing/build/base_interfaces_demo -- -j5 -l5
+[1.431s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.450s] [  4%] Built target ament_cmake_python_copy_base_interfaces_demo
+[1.450s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.592s] running egg_info
+[1.599s] creating base_interfaces_demo.egg-info
+[1.600s] writing base_interfaces_demo.egg-info/PKG-INFO
+[1.600s] writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt
+[1.600s] writing top-level names to base_interfaces_demo.egg-info/top_level.txt
+[1.600s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[1.600s] reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[1.600s] writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'
+[1.635s] [  4%] Built target ament_cmake_python_build_base_interfaces_demo_egg
+[1.812s] [  6%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/student__functions.c.o[0m
+[1.812s] [  8%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/srv/detail/add_ints__functions.c.o[0m
+[1.813s] [ 10%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/action/detail/progress__functions.c.o[0m
+[1.824s] [ 10%] Built target base_interfaces_demo__cpp
+[1.842s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.846s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.870s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.945s] [ 19%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so[0m
+[1.999s] [ 19%] Built target base_interfaces_demo__rosidl_generator_c
+[2.015s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.016s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.203s] [ 25%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[2.256s] [ 27%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/student__type_support.cpp.o[0m
+[2.265s] [ 29%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[2.428s] [ 31%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/srv/add_ints__type_support.cpp.o[0m
+[2.446s] [ 34%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/student__type_support.c.o[0m
+[2.494s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/student__type_support_c.cpp.o[0m
+[2.518s] [ 38%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/srv/detail/add_ints__type_support.c.o[0m
+[2.594s] [ 40%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/srv/detail/add_ints__type_support.cpp.o[0m
+[2.595s] [ 42%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/action/detail/progress__type_support.c.o[0m
+[2.654s] [ 44%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/srv/detail/dds_fastrtps/add_ints__type_support.cpp.o[0m
+[2.680s] [ 46%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/action/progress__type_support.cpp.o[0m
+[2.693s] [ 48%] [32m[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so[0m
+[2.745s] [ 48%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c
+[2.775s] [ 51%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/action/detail/progress__type_support.cpp.o[0m
+[2.921s] [ 53%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/action/detail/dds_fastrtps/progress__type_support.cpp.o[0m
+[2.949s] [ 55%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/srv/detail/add_ints__type_support_c.cpp.o[0m
+[3.025s] [ 57%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.153s] [ 59%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so[0m
+[3.286s] [ 61%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so[0m
+[3.319s] [ 61%] Built target base_interfaces_demo__rosidl_typesupport_cpp
+[3.333s] [ 63%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/action/detail/progress__type_support_c.cpp.o[0m
+[3.349s] [ 63%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp
+[3.357s] [ 65%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/student__type_support.cpp.o[0m
+[3.371s] [ 68%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/srv/add_ints__type_support.cpp.o[0m
+[3.405s] [ 70%] [32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/action/progress__type_support.cpp.o[0m
+[3.438s] [ 72%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so[0m
+[3.474s] [ 72%] Built target base_interfaces_demo__rosidl_typesupport_c
+[3.541s] [ 74%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.602s] [ 74%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp
+[3.645s] [ 76%] [32m[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so[0m
+[3.713s] [ 76%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c
+[3.735s] [ 76%] Built target base_interfaces_demo
+[3.757s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.249s] [ 78%] Built target base_interfaces_demo__py
+[4.270s] [ 80%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_student_s.c.o[0m
+[4.273s] [ 82%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/action/_progress_s.c.o[0m
+[4.274s] [ 85%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/srv/_add_ints_s.c.o[0m
+[4.376s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so[0m
+[4.420s] [ 87%] Built target base_interfaces_demo__rosidl_generator_py
+[4.443s] [ 89%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.445s] [ 91%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.446s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o[0m
+[4.542s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.548s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.552s] [100%] [32m[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.576s] [100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext
+[4.590s] [100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext
+[4.593s] [100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext
+[4.606s] Invoked command in '/home/bbbkkk/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws01_plumbing/build/base_interfaces_demo -- -j5 -l5
+[4.606s] Invoking command in '/home/bbbkkk/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bbbkkk/ws01_plumbing/build/base_interfaces_demo
+[4.613s] -- Install configuration: ""
+[4.613s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo
+[4.613s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[4.613s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[4.613s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.h
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.h
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.c
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__functions.h
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.h
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.h
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.h
+[4.615s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.h
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.h
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__functions.c
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.h
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.c
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__functions.h
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.h
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.h
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so
+[4.616s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_c.h
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_c.h
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so
+[4.616s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[4.616s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.c
+[4.616s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_c.h
+[4.621s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[4.621s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.621s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[4.621s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_c.h
+[4.621s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.c
+[4.621s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[4.621s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[4.621s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.c
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_c.h
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so
+[4.622s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so
+[4.622s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""
+[4.622s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[4.622s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[4.622s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.hpp
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__builder.hpp
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__struct.hpp
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__traits.hpp
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/add_ints.hpp
+[4.622s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[4.622s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__builder.hpp
+[4.622s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__struct.hpp
+[4.623s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__traits.hpp
+[4.623s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.hpp
+[4.623s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/student.hpp
+[4.623s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.623s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[4.623s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[4.623s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__builder.hpp
+[4.623s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__struct.hpp
+[4.623s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.hpp
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__traits.hpp
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/progress.hpp
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/dds_fastrtps
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/dds_fastrtps
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_fastrtps_cpp.hpp
+[4.624s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so
+[4.624s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv
+[4.624s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__type_support.cpp
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/srv/detail/add_ints__rosidl_typesupport_introspection_cpp.hpp
+[4.625s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg
+[4.625s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/student__type_support.cpp
+[4.625s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action
+[4.625s] -- Up-to-date: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__rosidl_typesupport_introspection_cpp.hpp
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/action/detail/progress__type_support.cpp
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so
+[4.625s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so
+[4.625s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints_s.c
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student_s.c
+[4.625s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py
+[4.626s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py
+[4.626s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py
+[4.626s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c
+[4.626s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so
+[4.626s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action
+[4.626s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress_s.c
+[4.626s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py
+[4.626s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py
+[4.626s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.652s] Listing '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...
+[4.652s] Compiling '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...
+[4.652s] Listing '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action'...
+[4.652s] Compiling '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/__init__.py'...
+[4.652s] Compiling '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/action/_progress.py'...
+[4.652s] Listing '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...
+[4.652s] Compiling '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...
+[4.652s] Compiling '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_student.py'...
+[4.652s] Listing '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv'...
+[4.652s] Compiling '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/__init__.py'...
+[4.652s] Compiling '/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/srv/_add_ints.py'...
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.665s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.665s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.665s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so
+[4.665s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.idl
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.idl
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.idl
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/msg/Student.msg
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts.srv
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Request.msg
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/srv/AddInts_Response.msg
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/action/Progress.action
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake
+[4.665s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake
+[4.666s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake
+[4.667s] -- Installing: /home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.xml
+[4.667s] Invoked command in '/home/bbbkkk/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bbbkkk/ws01_plumbing/build/base_interfaces_demo

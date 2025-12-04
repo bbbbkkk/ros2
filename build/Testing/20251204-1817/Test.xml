@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20251204-1817-Experimental"
+	Name="bbbkkk"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="bbbkkk"
+	OSRelease="6.8.0-87-generic"
+	OSVersion="#88~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Oct 14 14:03:14 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="183"
+	ProcessorCacheSize="36864"
+	NumberOfLogicalCPU="5"
+	NumberOfPhysicalCPU="5"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="7941"
+	LogicalProcessorsPerPhysical="1"
+	ProcessorClockFrequency="2419.2"
+	>
+	<Testing>
+		<StartDateTime>Dec 04 10:17 PST</StartDateTime>
+		<StartTestTime>1764872230</StartTestTime>
+		<TestList/>
+		<EndDateTime>Dec 04 10:17 PST</EndDateTime>
+		<EndTestTime>1764872230</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

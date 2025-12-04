@@ -1,0 +1,70 @@
+[0.015s] Invoking command in '/home/bbbkkk/ws01_plumbing/src/build/cpp03_action': CMAKE_PREFIX_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/install/cpp02_service:/home/bbbkkk/ws01_plumbing/install/cpp01_topic:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/src/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo/lib:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/bbbkkk/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/bbbkkk/ws01_plumbing/src/install/cpp03_action
+[0.058s] -- The C compiler identification is GNU 11.4.0
+[0.095s] -- The CXX compiler identification is GNU 11.4.0
+[0.100s] -- Detecting C compiler ABI info
+[0.158s] -- Detecting C compiler ABI info - done
+[0.162s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.162s] -- Detecting C compile features
+[0.162s] -- Detecting C compile features - done
+[0.164s] -- Detecting CXX compiler ABI info
+[0.231s] -- Detecting CXX compiler ABI info - done
+[0.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.235s] -- Detecting CXX compile features
+[0.236s] -- Detecting CXX compile features - done
+[0.237s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.333s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.392s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.409s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.410s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.415s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.423s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.457s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.460s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.527s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.542s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.572s] -- Looking for pthread.h
+[0.629s] -- Looking for pthread.h - found
+[0.631s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.694s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.697s] -- Found Threads: TRUE  
+[0.736s] -- Found rclcpp_action: 16.0.15 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.767s] -- Found base_interfaces_demo: 0.0.0 (/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.773s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.817s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.817s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bbbkkk/ws01_plumbing/src/cpp03_action/include>
+[0.817s] -- Configured cppcheck exclude dirs and/or files: 
+[0.818s] -- Added test 'lint_cmake' to check CMake code style
+[0.818s] -- Added test 'uncrustify' to check C / C++ code style
+[0.818s] -- Configured uncrustify additional arguments: 
+[0.818s] -- Added test 'xmllint' to check XML markup files
+[0.819s] -- Configuring done
+[0.826s] -- Generating done
+[0.829s] -- Build files have been written to: /home/bbbkkk/ws01_plumbing/src/build/cpp03_action
+[0.840s] Invoked command in '/home/bbbkkk/ws01_plumbing/src/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/install/cpp02_service:/home/bbbkkk/ws01_plumbing/install/cpp01_topic:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/src/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo/lib:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/bbbkkk/ws01_plumbing/src/cpp03_action -DCMAKE_INSTALL_PREFIX=/home/bbbkkk/ws01_plumbing/src/install/cpp03_action
+[0.841s] Invoking command in '/home/bbbkkk/ws01_plumbing/src/build/cpp03_action': CMAKE_PREFIX_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/install/cpp02_service:/home/bbbkkk/ws01_plumbing/install/cpp01_topic:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/src/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo/lib:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bbbkkk/ws01_plumbing/src/build/cpp03_action -- -j5 -l5
+[0.882s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_action_server.dir/src/demo01_action_server.cpp.o[0m
+[0.908s] [100%] [32m[1mLinking CXX executable demo01_action_server[0m
+[0.976s] [100%] Built target demo01_action_server
+[0.985s] Invoked command in '/home/bbbkkk/ws01_plumbing/src/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/install/cpp02_service:/home/bbbkkk/ws01_plumbing/install/cpp01_topic:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/src/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo/lib:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/bbbkkk/ws01_plumbing/src/build/cpp03_action -- -j5 -l5
+[0.992s] Invoking command in '/home/bbbkkk/ws01_plumbing/src/build/cpp03_action': CMAKE_PREFIX_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/install/cpp02_service:/home/bbbkkk/ws01_plumbing/install/cpp01_topic:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/src/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo/lib:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bbbkkk/ws01_plumbing/src/build/cpp03_action
+[0.998s] -- Install configuration: ""
+[0.998s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/lib/cpp03_action/demo01_action_server
+[0.998s] -- Set runtime path of "/home/bbbkkk/ws01_plumbing/src/install/cpp03_action/lib/cpp03_action/demo01_action_server" to ""
+[0.998s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/ament_index/resource_index/package_run_dependencies/cpp03_action
+[0.998s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/ament_index/resource_index/parent_prefix_path/cpp03_action
+[0.998s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.sh
+[0.998s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/environment/ament_prefix_path.dsv
+[0.998s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/environment/path.sh
+[0.998s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/environment/path.dsv
+[0.998s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/local_setup.bash
+[0.998s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/local_setup.sh
+[0.999s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/local_setup.zsh
+[0.999s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/local_setup.dsv
+[0.999s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/package.dsv
+[0.999s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/ament_index/resource_index/packages/cpp03_action
+[0.999s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig.cmake
+[0.999s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/cmake/cpp03_actionConfig-version.cmake
+[0.999s] -- Installing: /home/bbbkkk/ws01_plumbing/src/install/cpp03_action/share/cpp03_action/package.xml
+[1.002s] Invoked command in '/home/bbbkkk/ws01_plumbing/src/build/cpp03_action' returned '0': CMAKE_PREFIX_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/install/cpp02_service:/home/bbbkkk/ws01_plumbing/install/cpp01_topic:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo:/home/bbbkkk/ws01_plumbing/src/install/cpp01_topic:/opt/ros/humble LD_LIBRARY_PATH=/home/bbbkkk/ws01_plumbing/src/install/base_interfaces_demo/lib:/home/bbbkkk/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/bbbkkk/ws01_plumbing/src/build/cpp03_action

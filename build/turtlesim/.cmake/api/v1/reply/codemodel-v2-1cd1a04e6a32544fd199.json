@@ -1,0 +1,269 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ced57f5cf58fb05fb29b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				},
+				{
+					"build" : "turtlesim__py",
+					"jsonFile" : "directory-turtlesim__py-e9d2aaca3b435ae99bb1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/bbbkkk/ws01_plumbing/build/turtlesim/turtlesim__py",
+					"targetIndexes" : 
+					[
+						7
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "turtlesim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turtlesim_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turtlesim_egg-8fbcf6037195e044d7f6.json",
+					"name" : "ament_cmake_python_build_turtlesim_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_turtlesim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_turtlesim-27711dcb62d0611ee405.json",
+					"name" : "ament_cmake_python_copy_turtlesim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "draw_square::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-draw_square-70318a34e64cd4601521.json",
+					"name" : "draw_square",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mimic::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mimic-9c17404269ccf6e2589b.json",
+					"name" : "mimic",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_teleop_key::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_teleop_key-a8e308492ce0e325505a.json",
+					"name" : "turtle_teleop_key",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim-1eb01e4a1aa4834ab67d.json",
+					"name" : "turtlesim",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__cpp-558fa2745d15cdf9aaf2.json",
+					"name" : "turtlesim__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turtlesim__py::@d8187568aea548440e45",
+					"jsonFile" : "target-turtlesim__py-caf61ec58ad6d0e7b70f.json",
+					"name" : "turtlesim__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_generator_c-d5e24195a258614d8b9b.json",
+					"name" : "turtlesim__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_generator_py-2645b18f8c8f00c9df4f.json",
+					"name" : "turtlesim__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_c-d7e55ad14e9174a2604d.json",
+					"name" : "turtlesim__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_c__pyext-ed659c3fa752cf588652.json",
+					"name" : "turtlesim__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_cpp-ffa3bd98acd39476e17c.json",
+					"name" : "turtlesim__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_fastrtps_c-ccff7f13fb40668e988f.json",
+					"name" : "turtlesim__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_fastrtps_c__pyext-372c7a2f9239ac51b7c9.json",
+					"name" : "turtlesim__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_fastrtps_cpp-73157bf955c642ee9db8.json",
+					"name" : "turtlesim__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_introspection_c-12a0c2f67bb6184372b1.json",
+					"name" : "turtlesim__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_introspection_c__pyext-2b4032dc80ea27fc6efe.json",
+					"name" : "turtlesim__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim__rosidl_typesupport_introspection_cpp-5a5931681fdc1358380a.json",
+					"name" : "turtlesim__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_node-d156c221f50dfee3d6f5.json",
+					"name" : "turtlesim_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_uninstall-5940aac34fe3dc32b883.json",
+					"name" : "turtlesim_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-dcc26dd70b4ca0f8419f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bbbkkk/ws01_plumbing/build/turtlesim",
+		"source" : "/home/bbbkkk/ws01_plumbing/src/ros_tutorials/turtlesim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
