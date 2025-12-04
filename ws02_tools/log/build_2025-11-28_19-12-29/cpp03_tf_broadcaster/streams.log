@@ -1,0 +1,28 @@
+[0.017s] Invoking command in '/home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster -- -j5 -l5
+[0.064s] [35m[1mConsolidate compiler generated dependencies of target demo02_dy_tf[0m
+[0.076s] [ 50%] Built target demo01_static_tf
+[0.080s] [ 75%] [32mBuilding CXX object CMakeFiles/demo02_dy_tf.dir/src/demo02_dy_tf.cpp.o[0m
+[5.450s] [100%] [32m[1mLinking CXX executable demo02_dy_tf[0m
+[5.775s] [100%] Built target demo02_dy_tf
+[5.786s] Invoked command in '/home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster -- -j5 -l5
+[5.796s] Invoking command in '/home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster
+[5.810s] -- Install configuration: ""
+[5.810s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo01_static_tf
+[5.811s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_dy_tf
+[5.811s] -- Set runtime path of "/home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/lib/cpp03_tf_broadcaster/demo02_dy_tf" to ""
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/package_run_dependencies/cpp03_tf_broadcaster
+[5.811s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/parent_prefix_path/cpp03_tf_broadcaster
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.sh
+[5.811s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/ament_prefix_path.dsv
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.sh
+[5.811s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/environment/path.dsv
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.bash
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.sh
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.zsh
+[5.811s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/local_setup.dsv
+[5.811s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.dsv
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/ament_index/resource_index/packages/cpp03_tf_broadcaster
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig.cmake
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/cmake/cpp03_tf_broadcasterConfig-version.cmake
+[5.811s] -- Up-to-date: /home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster/share/cpp03_tf_broadcaster/package.xml
+[5.813s] Invoked command in '/home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster

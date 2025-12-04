@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000166] (cpp02_rosbag) JobQueued: {'identifier': 'cpp02_rosbag', 'dependencies': OrderedDict()}
+[0.000236] (cpp02_rosbag) JobStarted: {'identifier': 'cpp02_rosbag'}
+[0.007112] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'cmake'}
+[0.008327] (cpp02_rosbag) JobProgress: {'identifier': 'cpp02_rosbag', 'progress': 'build'}
+[0.008454] (cpp02_rosbag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bbbkkk/ws02_tools/build/cpp02_rosbag', '--', '-j5', '-l5'], 'cwd': '/home/bbbkkk/ws02_tools/build/cpp02_rosbag', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'bbbkkk'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bbbkkk'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/bbbkkk/ws02_tools/src'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1601'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1754'), ('BUNDLED_DEBUGPY_PATH', '/home/bbbkkk/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '10154'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bbbkkk/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'bbbkkk'), ('JOURNAL_STREAM', '8:13523'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bbbkkk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bbbkkk/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/bbbkkk:@/tmp/.ICE-unix/1723,unix/bbbkkk:/tmp/.ICE-unix/1723'), ('INVOCATION_ID', '2a5e64c2c2d24904ac98c636bbe24de5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/bbbkkk/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-7c5d62dbc025f9fb.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/bbbkkk/.config/Code/User/workspaceStorage/84afe89f6f151495173e41228ded95e0/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.22OCG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-610a42157f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bbbkkk/ws02_tools/install/cpp02_rosbag:/home/bbbkkk/ws02_tools/install/cpp01_launch:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/bbbkkk/ws02_tools/build/cpp02_rosbag'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bbbkkk/ws02_tools/install/cpp02_rosbag:/home/bbbkkk/ws02_tools/install/cpp01_launch:/opt/ros/humble')]), 'shell': False}
+[0.049159] (cpp02_rosbag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_writer\x1b[0m\n'}
+[0.060860] (cpp02_rosbag) StdoutLine: {'line': b'[ 50%] Built target demo02_reader\n'}
+[0.062390] (cpp02_rosbag) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o\x1b[0m\n'}
+[0.099605] (-) TimerEvent: {}
+[0.204822] (-) TimerEvent: {}
+[0.306131] (-) TimerEvent: {}
+[0.407222] (-) TimerEvent: {}
+[0.509525] (-) TimerEvent: {}
+[0.609971] (-) TimerEvent: {}
+[0.731304] (-) TimerEvent: {}
+[0.832970] (-) TimerEvent: {}
+[0.933992] (-) TimerEvent: {}
+[1.037575] (-) TimerEvent: {}
+[1.142858] (-) TimerEvent: {}
+[1.246997] (-) TimerEvent: {}
+[1.350520] (-) TimerEvent: {}
+[1.456196] (-) TimerEvent: {}
+[1.559595] (-) TimerEvent: {}
+[1.677013] (-) TimerEvent: {}
+[1.778130] (-) TimerEvent: {}
+[1.884340] (-) TimerEvent: {}
+[1.985291] (-) TimerEvent: {}
+[2.086437] (-) TimerEvent: {}
+[2.190680] (-) TimerEvent: {}
+[2.295119] (-) TimerEvent: {}
+[2.399405] (-) TimerEvent: {}
+[2.501445] (-) TimerEvent: {}
+[2.668128] (-) TimerEvent: {}
+[2.771996] (-) TimerEvent: {}
+[2.873417] (-) TimerEvent: {}
+[2.979678] (-) TimerEvent: {}
+[3.101454] (-) TimerEvent: {}
+[3.208977] (-) TimerEvent: {}
+[3.319186] (-) TimerEvent: {}
+[3.420547] (-) TimerEvent: {}
+[3.523387] (-) TimerEvent: {}
+[3.628305] (-) TimerEvent: {}
+[3.729745] (-) TimerEvent: {}
+[3.830186] (-) TimerEvent: {}
+[3.931024] (-) TimerEvent: {}
+[4.037992] (-) TimerEvent: {}
+[4.139442] (-) TimerEvent: {}
+[4.276331] (-) TimerEvent: {}
+[4.378337] (-) TimerEvent: {}
+[4.486628] (-) TimerEvent: {}
+[4.590416] (-) TimerEvent: {}
+[4.691048] (-) TimerEvent: {}
+[4.815328] (-) TimerEvent: {}
+[4.917188] (-) TimerEvent: {}
+[5.036343] (-) TimerEvent: {}
+[5.193352] (-) TimerEvent: {}
+[5.304988] (-) TimerEvent: {}
+[5.388398] (cpp02_rosbag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo01_writer\x1b[0m\n'}
+[5.405175] (-) TimerEvent: {}
+[5.506980] (-) TimerEvent: {}
+[5.591105] (cpp02_rosbag) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o: in function `void rosbag2_cpp::Writer::write<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > >(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::Time const&)':\n"}
+[5.591239] (cpp02_rosbag) StderrLine: {'line': b"demo01_writer.cpp:(.text._ZN11rosbag2_cpp6Writer5writeISt10shared_ptrIN13geometry_msgs3msg6Twist_ISaIvEEEEEEvRKT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN6rclcpp4TimeE[_ZN11rosbag2_cpp6Writer5writeISt10shared_ptrIN13geometry_msgs3msg6Twist_ISaIvEEEEEEvRKT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN6rclcpp4TimeE]+0x85): undefined reference to `char const* rosidl_generator_traits::name<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > >()'\n"}
+[5.591272] (cpp02_rosbag) StderrLine: {'line': b"/usr/bin/ld: CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o: in function `rclcpp::Serialization<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > >::Serialization()':\n"}
+[5.591298] (cpp02_rosbag) StderrLine: {'line': b"demo01_writer.cpp:(.text._ZN6rclcpp13SerializationISt10shared_ptrIN13geometry_msgs3msg6Twist_ISaIvEEEEEC2Ev[_ZN6rclcpp13SerializationISt10shared_ptrIN13geometry_msgs3msg6Twist_ISaIvEEEEEC5Ev]+0x16): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > >()'\n"}
+[5.607207] (-) TimerEvent: {}
+[5.614331] (cpp02_rosbag) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[5.618249] (cpp02_rosbag) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_writer.dir/build.make:173\xef\xbc\x9ademo01_writer] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[5.619335] (cpp02_rosbag) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139\xef\xbc\x9aCMakeFiles/demo01_writer.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.619632] (cpp02_rosbag) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[5.622687] (cpp02_rosbag) CommandEnded: {'returncode': 2}
+[5.633450] (cpp02_rosbag) JobEnded: {'identifier': 'cpp02_rosbag', 'rc': 2}
+[5.644298] (-) EventReactorShutdown: {}

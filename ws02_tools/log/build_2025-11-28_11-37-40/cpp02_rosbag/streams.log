@@ -1,0 +1,14 @@
+[0.008s] Invoking command in '/home/bbbkkk/ws02_tools/build/cpp02_rosbag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp02_rosbag -- -j5 -l5
+[0.047s] [35m[1mConsolidate compiler generated dependencies of target demo01_writer[0m
+[0.060s] [ 50%] Built target demo02_reader
+[0.061s] [ 75%] [32mBuilding CXX object CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o[0m
+[5.048s] [100%] [32m[1mLinking CXX executable demo01_writer[0m
+[5.236s] /usr/bin/ld: CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o: in function `void rosbag2_cpp::Writer::write<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > >(std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, rclcpp::Time const&)':
+[5.236s] demo01_writer.cpp:(.text._ZN11rosbag2_cpp6Writer5writeISt10shared_ptrIN13geometry_msgs3msg6Twist_ISaIvEEEEEEvRKT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN6rclcpp4TimeE[_ZN11rosbag2_cpp6Writer5writeISt10shared_ptrIN13geometry_msgs3msg6Twist_ISaIvEEEEEEvRKT_RKNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEERKN6rclcpp4TimeE]+0x85): undefined reference to `char const* rosidl_generator_traits::name<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > >()'
+[5.237s] /usr/bin/ld: CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o: in function `rclcpp::Serialization<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > >::Serialization()':
+[5.237s] demo01_writer.cpp:(.text._ZN6rclcpp13SerializationISt10shared_ptrIN13geometry_msgs3msg6Twist_ISaIvEEEEEC2Ev[_ZN6rclcpp13SerializationISt10shared_ptrIN13geometry_msgs3msg6Twist_ISaIvEEEEEC5Ev]+0x16): undefined reference to `rosidl_message_type_support_t const* rosidl_typesupport_cpp::get_message_type_support_handle<std::shared_ptr<geometry_msgs::msg::Twist_<std::allocator<void> > > >()'
+[5.259s] collect2: error: ld returned 1 exit status
+[5.261s] gmake[2]: *** [CMakeFiles/demo01_writer.dir/build.make:173：demo01_writer] 错误 1
+[5.261s] gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_writer.dir/all] 错误 2
+[5.261s] gmake: *** [Makefile:146：all] 错误 2
+[5.265s] Invoked command in '/home/bbbkkk/ws02_tools/build/cpp02_rosbag' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp02_rosbag -- -j5 -l5

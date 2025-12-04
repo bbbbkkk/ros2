@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-8fea5bcdd3d9bad5cfbf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp03_tf_broadcaster",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp03_tf_broadcaster_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp03_tf_broadcaster_uninstall-1fec2f280fed80c9d536.json",
+					"name" : "cpp03_tf_broadcaster_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo01_static_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo01_static_tf-c854c20336951dcb34b3.json",
+					"name" : "demo01_static_tf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo02_dy_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo02_dy_tf-c4b62ccd7557d13da8fa.json",
+					"name" : "demo02_dy_tf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "demo03_point_tf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo03_point_tf-0e1ba0bbd345dea0d215.json",
+					"name" : "demo03_point_tf",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-937a09d2865359157538.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster",
+		"source" : "/home/bbbkkk/ws02_tools/src/cpp03_tf_broadcaster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

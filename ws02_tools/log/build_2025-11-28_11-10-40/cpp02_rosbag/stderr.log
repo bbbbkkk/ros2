@@ -1,0 +1,36 @@
+[01m[K/home/bbbkkk/ws02_tools/src/cpp02_rosbag/src/demo01_writer.cpp:[m[K In constructor ‘[01m[KSimpleBagRecord::SimpleBagRecord()[m[K’:
+[01m[K/home/bbbkkk/ws02_tools/src/cpp02_rosbag/src/demo01_writer.cpp:21:52:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >::Subscription()[m[K’
+   21 |   SimpleBagRecord() : Node("simple_bag_record_node"[01;31m[K)[m[K {
+      |                                                    [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bbbkkk/ws02_tools/src/cpp02_rosbag/src/demo01_writer.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = geometry_msgs::msg::Twist_<std::allocator<void> >; ROSMessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<geometry_msgs::msg::Twist_<std::allocator<void> > > >][m[K’
+  130 |   [01;36m[KSubscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 0 provided
+[01m[K/home/bbbkkk/ws02_tools/src/cpp02_rosbag/src/demo01_writer.cpp:25:152:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Krclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >[m[K’ and ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > > >[m[K’)
+   25 | el",10,std::bind(&SimpleBagRecord::do_write,this,std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                        [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/bbbkkk/ws02_tools/src/cpp02_rosbag/src/demo01_writer.cpp:14[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:423:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>& rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::operator=(const rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>&) [with MessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = geometry_msgs::msg::Twist_<std::allocator<void> >; ROSMessageT = geometry_msgs::msg::Twist_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<geometry_msgs::msg::Twist_<std::allocator<void> >, std::allocator<void> >][m[K’ (deleted)
+  423 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:423:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > > >[m[K’ to ‘[01m[Kconst rclcpp::Subscription<geometry_msgs::msg::Twist_<std::allocator<void> > >&[m[K’
+  423 |   [01;36m[KRCLCPP_DISABLE_COPY[m[K(Subscription)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo01_writer.dir/build.make:76：CMakeFiles/demo01_writer.dir/src/demo01_writer.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:139：CMakeFiles/demo01_writer.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

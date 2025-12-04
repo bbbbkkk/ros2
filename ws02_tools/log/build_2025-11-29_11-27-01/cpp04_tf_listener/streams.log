@@ -1,0 +1,26 @@
+[0.011s] Invoking command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp04_tf_listener -- -j5 -l5
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target demo01_tf_listener[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[4.988s] [100%] [32m[1mLinking CXX executable demo01_tf_listener[0m
+[5.217s] [100%] Built target demo01_tf_listener
+[5.228s] Invoked command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp04_tf_listener -- -j5 -l5
+[5.237s] Invoking command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bbbkkk/ws02_tools/build/cpp04_tf_listener
+[5.243s] -- Install configuration: ""
+[5.243s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener
+[5.245s] -- Set runtime path of "/home/bbbkkk/ws02_tools/install/cpp04_tf_listener/lib/cpp04_tf_listener/demo01_tf_listener" to ""
+[5.245s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/package_run_dependencies/cpp04_tf_listener
+[5.245s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/parent_prefix_path/cpp04_tf_listener
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.sh
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/ament_prefix_path.dsv
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.sh
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/environment/path.dsv
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.bash
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.sh
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.zsh
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/local_setup.dsv
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.dsv
+[5.246s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/ament_index/resource_index/packages/cpp04_tf_listener
+[5.247s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig.cmake
+[5.247s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/cmake/cpp04_tf_listenerConfig-version.cmake
+[5.247s] -- Installing: /home/bbbkkk/ws02_tools/install/cpp04_tf_listener/share/cpp04_tf_listener/package.xml
+[5.248s] Invoked command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/bbbkkk/ws02_tools/build/cpp04_tf_listener

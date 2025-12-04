@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000828] (-) JobUnselected: {'identifier': 'cpp01_launch'}
+[0.000858] (-) JobUnselected: {'identifier': 'cpp02_rosbag'}
+[0.000869] (cpp03_tf_broadcaster) JobQueued: {'identifier': 'cpp03_tf_broadcaster', 'dependencies': OrderedDict()}
+[0.001124] (cpp03_tf_broadcaster) JobStarted: {'identifier': 'cpp03_tf_broadcaster'}
+[0.010745] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'cmake'}
+[0.013470] (cpp03_tf_broadcaster) JobProgress: {'identifier': 'cpp03_tf_broadcaster', 'progress': 'build'}
+[0.013595] (cpp03_tf_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster', '--', '-j5', '-l5'], 'cwd': '/home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'bbbkkk'), ('LC_TIME', 'en_US.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/bbbkkk'), ('CHROME_DESKTOP', 'code.desktop'), ('TERM_PROGRAM_VERSION', '1.106.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1601'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('SYSTEMD_EXEC_PID', '1754'), ('BUNDLED_DEBUGPY_PATH', '/home/bbbkkk/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('IM_CONFIG_CHECK_ENV', '1'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '18971'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/bbbkkk/ws02_tools/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'bbbkkk'), ('JOURNAL_STREAM', '8:13523'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'bbbkkk'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bbbkkk/.vscode/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('SESSION_MANAGER', 'local/bbbkkk:@/tmp/.ICE-unix/1723,unix/bbbkkk:/tmp/.ICE-unix/1723'), ('INVOCATION_ID', '2a5e64c2c2d24904ac98c636bbe24de5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_US.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/bbbkkk/.vscode/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-7c5d62dbc025f9fb.txt'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/bbbkkk/.config/Code/User/workspaceStorage/84afe89f6f151495173e41228ded95e0/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'en_US.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.22OCG3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-610a42157f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster:/home/bbbkkk/ws02_tools/install/cpp02_rosbag:/home/bbbkkk/ws02_tools/install/cpp01_launch:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_US.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_US.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'en_US.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_US.UTF-8'), ('LC_PAPER', 'en_US.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/bbbkkk/ws02_tools/install/cpp03_tf_broadcaster:/home/bbbkkk/ws02_tools/install/cpp02_rosbag:/home/bbbkkk/ws02_tools/install/cpp01_launch:/opt/ros/humble')]), 'shell': False}
+[0.051858] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100842] (-) TimerEvent: {}
+[0.154850] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.181128] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.182617] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.187530] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.195452] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.202213] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.202581] (-) TimerEvent: {}
+[0.227660] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.227798] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299119] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.302711] (-) TimerEvent: {}
+[0.329149] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[0.345143] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.16 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.402887] (-) TimerEvent: {}
+[0.460476] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found turtlesim: 1.4.3 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[0.479882] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.514056] (-) TimerEvent: {}
+[0.538743] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.538931] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/bbbkkk/ws02_tools/src/cpp03_tf_broadcaster/include>\n'}
+[0.538963] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.538989] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.539074] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.539099] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.539123] (cpp03_tf_broadcaster) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.541610] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.560931] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Generating done\n'}
+[0.567805] (cpp03_tf_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/bbbkkk/ws02_tools/build/cpp03_tf_broadcaster\n'}
+[0.597993] (cpp03_tf_broadcaster) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_static_tf\x1b[0m\n'}
+[0.609773] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_dy_tf.dir/src/demo02_dy_tf.cpp.o\x1b[0m\n'}
+[0.615711] (-) TimerEvent: {}
+[0.617655] (cpp03_tf_broadcaster) StdoutLine: {'line': b'[ 75%] Built target demo01_static_tf\n'}
+[0.715924] (-) TimerEvent: {}
+[0.816754] (-) TimerEvent: {}
+[0.917679] (-) TimerEvent: {}
+[1.018717] (-) TimerEvent: {}
+[1.137502] (-) TimerEvent: {}
+[1.240387] (-) TimerEvent: {}
+[1.342489] (-) TimerEvent: {}
+[1.443447] (-) TimerEvent: {}
+[1.544115] (-) TimerEvent: {}
+[1.646100] (-) TimerEvent: {}
+[1.747839] (-) TimerEvent: {}
+[1.848641] (-) TimerEvent: {}
+[1.950467] (-) TimerEvent: {}
+[2.052601] (-) TimerEvent: {}
+[2.153365] (-) TimerEvent: {}
+[2.185645] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bbbkkk/ws02_tools/src/cpp03_tf_broadcaster/src/demo02_dy_tf.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTFDyBroadcaster::TFDyBroadcaster()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.185819] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bbbkkk/ws02_tools/src/cpp03_tf_broadcaster/src/demo02_dy_tf.cpp:9:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >::Subscription()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.185855] (cpp03_tf_broadcaster) StderrLine: {'line': b'    9 |   TFDyBroadcaster() : Node("tf_dy_broadcaster_node"\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[2.185881] (cpp03_tf_broadcaster) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.185903] (cpp03_tf_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[2.185927] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.185948] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.185970] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.185993] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.186014] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.186035] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.186055] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.186076] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bbbkkk/ws02_tools/src/cpp03_tf_broadcaster/src/demo02_dy_tf.cpp:1\x1b[m\x1b[K:\n'}
+[2.186096] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::Subscription(rclcpp::node_interfaces::NodeBaseInterface*, const rosidl_message_type_support_t&, const string&, const rclcpp::QoS&, rclcpp::AnySubscriptionCallback<CallbackMessageT, AllocatorT>, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr, rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = turtlesim::msg::Pose_<std::allocator<void> >; ROSMessageT = turtlesim::msg::Pose_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >; rosidl_message_type_support_t = rosidl_message_type_support_t; std::string = std::__cxx11::basic_string<char>; typename MessageMemoryStrategyT::SharedPtr = std::shared_ptr<rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> > >; rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::SubscriptionTopicStatisticsSharedPtr = std::shared_ptr<rclcpp::topic_statistics::SubscriptionTopicStatistics<turtlesim::msg::Pose_<std::allocator<void> > > >]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.186132] (cpp03_tf_broadcaster) StderrLine: {'line': b'  130 |   \x1b[01;36m\x1b[KSubscription\x1b[m\x1b[K(\n'}
+[2.186154] (cpp03_tf_broadcaster) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.186176] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:130:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 8 arguments, 0 provided\n'}
+[2.192044] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/home/bbbkkk/ws02_tools/src/cpp03_tf_broadcaster/src/demo02_dy_tf.cpp:12:141:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >\x1b[m\x1b[K\xe2\x80\x99 and \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[2.192207] (cpp03_tf_broadcaster) StderrLine: {'line': b'   12 |     pose_ =this->create_subscription<turtlesim::msg::Pose>("turtle1/pose",10,std::bind(&TFDyBroadcaster::do_pose,this,std::placeholders::_1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.192240] (cpp03_tf_broadcaster) StderrLine: {'line': b'      |                                                                                                                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.192266] (cpp03_tf_broadcaster) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/context.hpp:35\x1b[m\x1b[K,\n'}
+[2.192301] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:34\x1b[m\x1b[K,\n'}
+[2.192332] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.192355] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.192377] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.192399] (cpp03_tf_broadcaster) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/bbbkkk/ws02_tools/src/cpp03_tf_broadcaster/src/demo02_dy_tf.cpp:1\x1b[m\x1b[K:\n'}
+[2.192422] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:423:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>& rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>::operator=(const rclcpp::Subscription<MessageT, AllocatorT, SubscribedT, ROSMessageT, MessageMemoryStrategyT>&) [with MessageT = turtlesim::msg::Pose_<std::allocator<void> >; AllocatorT = std::allocator<void>; SubscribedT = turtlesim::msg::Pose_<std::allocator<void> >; ROSMessageT = turtlesim::msg::Pose_<std::allocator<void> >; MessageMemoryStrategyT = rclcpp::message_memory_strategy::MessageMemoryStrategy<turtlesim::msg::Pose_<std::allocator<void> >, std::allocator<void> >]\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[2.192448] (cpp03_tf_broadcaster) StderrLine: {'line': b'  423 |   \x1b[01;36m\x1b[KRCLCPP_DISABLE_COPY\x1b[m\x1b[K(Subscription)\n'}
+[2.192470] (cpp03_tf_broadcaster) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.192492] (cpp03_tf_broadcaster) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:423:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Subscription<turtlesim::msg::Pose_<std::allocator<void> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.192519] (cpp03_tf_broadcaster) StderrLine: {'line': b'  423 |   \x1b[01;36m\x1b[KRCLCPP_DISABLE_COPY\x1b[m\x1b[K(Subscription)\n'}
+[2.192539] (cpp03_tf_broadcaster) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.264030] (-) TimerEvent: {}
+[2.364794] (-) TimerEvent: {}
+[2.465218] (-) TimerEvent: {}
+[2.569805] (-) TimerEvent: {}
+[2.674414] (-) TimerEvent: {}
+[2.775711] (-) TimerEvent: {}
+[2.878711] (-) TimerEvent: {}
+[3.032536] (-) TimerEvent: {}
+[3.132934] (-) TimerEvent: {}
+[3.233528] (-) TimerEvent: {}
+[3.346039] (-) TimerEvent: {}
+[3.446988] (-) TimerEvent: {}
+[3.548787] (-) TimerEvent: {}
+[3.652421] (-) TimerEvent: {}
+[3.737871] (cpp03_tf_broadcaster) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_dy_tf.dir/build.make:76\xef\xbc\x9aCMakeFiles/demo02_dy_tf.dir/src/demo02_dy_tf.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[3.739931] (cpp03_tf_broadcaster) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165\xef\xbc\x9aCMakeFiles/demo02_dy_tf.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.740021] (cpp03_tf_broadcaster) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[3.745234] (cpp03_tf_broadcaster) CommandEnded: {'returncode': 2}
+[3.752707] (-) TimerEvent: {}
+[3.754822] (cpp03_tf_broadcaster) JobEnded: {'identifier': 'cpp03_tf_broadcaster', 'rc': 2}
+[3.765449] (-) EventReactorShutdown: {}

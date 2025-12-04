@@ -1,0 +1,6 @@
+Invoking command in '/home/bbbkkk/ws02_tools/src/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bbbkkk/ws02_tools/src/cpp02_rosbag -DCMAKE_INSTALL_PREFIX=/home/bbbkkk/ws02_tools/src/install/cpp02_rosbag
+Invoked command in '/home/bbbkkk/ws02_tools/src/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/bbbkkk/ws02_tools/src/cpp02_rosbag -DCMAKE_INSTALL_PREFIX=/home/bbbkkk/ws02_tools/src/install/cpp02_rosbag
+Invoking command in '/home/bbbkkk/ws02_tools/src/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/src/build/cpp02_rosbag -- -j5 -l5
+Invoked command in '/home/bbbkkk/ws02_tools/src/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/src/build/cpp02_rosbag -- -j5 -l5
+Invoking command in '/home/bbbkkk/ws02_tools/src/build/cpp02_rosbag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bbbkkk/ws02_tools/src/build/cpp02_rosbag
+Invoked command in '/home/bbbkkk/ws02_tools/src/build/cpp02_rosbag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/bbbkkk/ws02_tools/src/build/cpp02_rosbag

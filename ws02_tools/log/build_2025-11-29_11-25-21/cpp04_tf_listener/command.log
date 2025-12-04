@@ -1,0 +1,4 @@
+Invoking command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bbbkkk/ws02_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/bbbkkk/ws02_tools/install/cpp04_tf_listener
+Invoked command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/bbbkkk/ws02_tools/src/cpp04_tf_listener -DCMAKE_INSTALL_PREFIX=/home/bbbkkk/ws02_tools/install/cpp04_tf_listener
+Invoking command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp04_tf_listener -- -j5 -l5
+Invoked command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp04_tf_listener -- -j5 -l5

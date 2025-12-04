@@ -1,0 +1,100 @@
+[0.015s] Invoking command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp04_tf_listener -- -j5 -l5
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target demo01_tf_listener[0m
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o[0m
+[1.575s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:[m[K In constructor ‘[01m[KTFListener::TFListener()[m[K’:
+[1.575s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:25:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kstd::unique_ptr<tf2_ros::Buffer>::unique_ptr(rclcpp::Clock::SharedPtr)[m[K’
+[1.575s]    25 |     buffer_=std::unique_ptr<tf2_ros::Buffer>(this->get_clock()[01;31m[K)[m[K;
+[1.575s]       |                                                               [01;31m[K^[m[K
+[1.575s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.575s]                  from [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:16[m[K:
+[1.575s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:350:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::auto_ptr<_Up>&&) [with _Up = _Up; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = tf2_ros::Buffer; _Dp = std::default_delete<tf2_ros::Buffer>][m[K’
+[1.575s]   350 |         [01;36m[Kunique_ptr[m[K(auto_ptr<_Up>&& __u) noexcept;
+[1.575s]       |         [01;36m[K^~~~~~~~~~[m[K
+[1.575s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:350:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.575s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:25:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Clock::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’} is not derived from ‘[01m[Kstd::auto_ptr<_Up>[m[K’
+[1.575s]    25 |     buffer_=std::unique_ptr<tf2_ros::Buffer>(this->get_clock()[01;36m[K)[m[K;
+[1.575s]       |                                                               [01;36m[K^[m[K
+[1.575s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.576s]                  from [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:16[m[K:
+[1.576s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:340:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up, class _Ep, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Up, _Ep>&&) [with _Up = _Up; _Ep = _Ep; <template-parameter-2-3> = <template-parameter-1-3>; _Tp = tf2_ros::Buffer; _Dp = std::default_delete<tf2_ros::Buffer>][m[K’
+[1.576s]   340 |         [01;36m[Kunique_ptr[m[K(unique_ptr<_Up, _Ep>&& __u) noexcept
+[1.576s]       |         [01;36m[K^~~~~~~~~~[m[K
+[1.576s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:340:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.576s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:25:63:[m[K [01;36m[Knote: [m[K  ‘[01m[Krclcpp::Clock::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’} is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+[1.576s]    25 |     buffer_=std::unique_ptr<tf2_ros::Buffer>(this->get_clock()[01;36m[K)[m[K;
+[1.576s]       |                                                               [01;36m[K^[m[K
+[1.576s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.576s]                  from [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:16[m[K:
+[1.576s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:320:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> constexpr std::unique_ptr<_Tp, _Dp>::unique_ptr(std::nullptr_t) [with _Del = _Del; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = tf2_ros::Buffer; _Dp = std::default_delete<tf2_ros::Buffer>][m[K’
+[1.576s]   320 |         constexpr [01;36m[Kunique_ptr[m[K(nullptr_t) noexcept
+[1.576s]       |                   [01;36m[K^~~~~~~~~~[m[K
+[1.576s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:320:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.576s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:25:61:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Krclcpp::Node::get_clock()()[m[K’ (type ‘[01m[Krclcpp::Clock::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’}) to type ‘[01m[Kstd::nullptr_t[m[K’
+[1.576s]    25 |     buffer_=std::unique_ptr<tf2_ros::Buffer>([01;36m[Kthis->get_clock()[m[K);
+[1.576s]       |                                              [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[1.576s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.576s]                  from [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:16[m[K:
+[1.576s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:314:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class _DelUnref> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>::pointer, std::__enable_if_t<std::is_lvalue_reference<_Del>::value, _DelUnref&&>) [with _Del = _Del; _DelUnref = _DelUnref; _Tp = tf2_ros::Buffer; _Dp = std::default_delete<tf2_ros::Buffer>][m[K’ (deleted)
+[1.576s]   314 |         [01;36m[Kunique_ptr[m[K(pointer,
+[1.576s]       |         [01;36m[K^~~~~~~~~~[m[K
+[1.577s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:314:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.577s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:25:63:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.577s]    25 |     buffer_=std::unique_ptr<tf2_ros::Buffer>(this->get_clock()[01;36m[K)[m[K;
+[1.577s]       |                                                               [01;36m[K^[m[K
+[1.577s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.577s]                  from [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:16[m[K:
+[1.578s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:306:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>::pointer, std::__enable_if_t<(! std::is_lvalue_reference<_Del>::value), _Del&&>) [with _Del = _Del; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = tf2_ros::Buffer; _Dp = std::default_delete<tf2_ros::Buffer>][m[K’
+[1.578s]   306 |         [01;36m[Kunique_ptr[m[K(pointer __p,
+[1.578s]       |         [01;36m[K^~~~~~~~~~[m[K
+[1.578s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:306:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.578s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:25:63:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.578s]    25 |     buffer_=std::unique_ptr<tf2_ros::Buffer>(this->get_clock()[01;36m[K)[m[K;
+[1.578s]       |                                                               [01;36m[K^[m[K
+[1.578s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.578s]                  from [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:16[m[K:
+[1.578s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:294:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>::pointer, const deleter_type&) [with _Del = _Del; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = tf2_ros::Buffer; _Dp = std::default_delete<tf2_ros::Buffer>][m[K’
+[1.578s]   294 |         [01;36m[Kunique_ptr[m[K(pointer __p, const deleter_type& __d) noexcept
+[1.578s]       |         [01;36m[K^~~~~~~~~~[m[K
+[1.578s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:294:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.578s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:25:63:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[1.578s]    25 |     buffer_=std::unique_ptr<tf2_ros::Buffer>(this->get_clock()[01;36m[K)[m[K;
+[1.578s]       |                                                               [01;36m[K^[m[K
+[1.578s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.578s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.578s]                  from [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:16[m[K:
+[1.578s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:281:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> std::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>::pointer) [with _Del = _Del; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = tf2_ros::Buffer; _Dp = std::default_delete<tf2_ros::Buffer>][m[K’
+[1.578s]   281 |         [01;36m[Kunique_ptr[m[K(pointer __p) noexcept
+[1.578s]       |         [01;36m[K^~~~~~~~~~[m[K
+[1.579s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:281:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.579s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:25:61:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[Krclcpp::Node::get_clock()()[m[K’ (type ‘[01m[Krclcpp::Clock::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’}) to type ‘[01m[Kstd::unique_ptr<tf2_ros::Buffer>::pointer[m[K’ {aka ‘[01m[Ktf2_ros::Buffer*[m[K’}
+[1.579s]    25 |     buffer_=std::unique_ptr<tf2_ros::Buffer>([01;36m[Kthis->get_clock()[m[K);
+[1.579s]       |                                              [01;36m[K~~~~~~~~~~~~~~~^~[m[K
+[1.579s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.579s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.579s]                  from [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:16[m[K:
+[1.579s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:269:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Del, class> constexpr std::unique_ptr<_Tp, _Dp>::unique_ptr() [with _Del = _Del; <template-parameter-2-2> = <template-parameter-1-2>; _Tp = tf2_ros::Buffer; _Dp = std::default_delete<tf2_ros::Buffer>][m[K’
+[1.579s]   269 |         constexpr [01;36m[Kunique_ptr[m[K() noexcept
+[1.579s]       |                   [01;36m[K^~~~~~~~~~[m[K
+[1.579s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:269:19:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[1.579s] [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:25:63:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+[1.579s]    25 |     buffer_=std::unique_ptr<tf2_ros::Buffer>(this->get_clock()[01;36m[K)[m[K;
+[1.579s]       |                                                               [01;36m[K^[m[K
+[1.579s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[1.580s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[1.580s]                  from [01m[K/home/bbbkkk/ws02_tools/src/cpp04_tf_listener/src/demo01_tf_listener.cpp:16[m[K:
+[1.580s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:327:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>::unique_ptr(std::unique_ptr<_Tp, _Dp>&&) [with _Tp = tf2_ros::Buffer; _Dp = std::default_delete<tf2_ros::Buffer>][m[K’
+[1.580s]   327 |       [01;36m[Kunique_ptr[m[K(unique_ptr&&) = default;
+[1.580s]       |       [01;36m[K^~~~~~~~~~[m[K
+[1.580s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:327:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Krclcpp::Clock::SharedPtr[m[K’ {aka ‘[01m[Kstd::shared_ptr<rclcpp::Clock>[m[K’} to ‘[01m[Kstd::unique_ptr<tf2_ros::Buffer>&&[m[K’
+[1.580s]   327 |       unique_ptr([01;36m[Kunique_ptr&&[m[K) = default;
+[1.580s]       |                  [01;36m[K^~~~~~~~~~~~[m[K
+[3.055s] gmake[2]: *** [CMakeFiles/demo01_tf_listener.dir/build.make:76：CMakeFiles/demo01_tf_listener.dir/src/demo01_tf_listener.cpp.o] 错误 1
+[3.056s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/demo01_tf_listener.dir/all] 错误 2
+[3.056s] gmake: *** [Makefile:146：all] 错误 2
+[3.058s] Invoked command in '/home/bbbkkk/ws02_tools/build/cpp04_tf_listener' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/bbbkkk/ws02_tools/build/cpp04_tf_listener -- -j5 -l5
